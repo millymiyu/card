@@ -1,0 +1,138 @@
+#main
+{
+    /* display: inline; */
+    /* flex-direction: column; */ 
+    width: 1500;
+    height: 1000;
+   display: flex;
+   padding: 10px;
+}
+.subdivs
+{
+  /* display: inline-block; */
+  flex: 1;
+  width: 250px;
+  height: 700px;
+  /* margin: auto; */
+  border: 1px solid #96969696;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 15px 15px 15px 15px; 
+  margin-right: 20px;
+}
+#div2
+{
+background-color: rgb(247, 213, 168);
+
+}
+#div3
+{
+background-color: rgb(220, 243, 245);
+
+}
+#div4
+{
+background-color:rgba(0, 0, 0, 0.911);
+
+}
+#div3top
+{
+background-color: blue;
+width: 250px;
+height: 40px;
+padding: 0%;
+
+border-top-left-radius: 15px;  
+border-top-right-radius: 15px;  
+
+}
+.gen_text
+{
+    color: black;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: normal;
+    
+    
+    font-size: medium;
+        
+
+}
+.gen_textb
+{
+    color: whitesmoke;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: normal;
+    font-size: medium;
+        
+
+}
+#para1
+{
+    padding-bottom: 70px;
+}
+#para2
+{
+    padding-bottom: 70px;
+}
+#para3
+{
+    padding-bottom: 70px;
+}
+#para4
+{
+    padding-bottom: 70px;
+}
+
+#firstheading
+{
+  font-size: xxx-large;  
+  font-weight: bolder;
+}
+#topheading
+{
+    font-size: large;  
+    font-weight: bolder;
+}
+#span1
+{
+  font-size: xxx-large;   
+    font-weight: bolder;
+}
+.btn
+{
+    
+    border: none;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    /* padding: 20px;  */
+    padding: 1rem 1rem;
+  vertical-align: middle;
+}
+#list4
+{
+text-decoration: underline;
+text-decoration-style: dotted;
+    
+}
+
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+ul li:before {
+  content: '\2714\0020';
+}
+#btn3
+{
+background-color:blue;
+
+}
